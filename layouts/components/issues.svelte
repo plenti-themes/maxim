@@ -25,17 +25,17 @@
 
     <div class="isFlex">
       <h4>repo...</h4>
-      <a href=""> -- plenti-maxim --</a>
+      <a href="https://github.com/claxxmoldii/claxxcomixx"> -- plenti-maxim --</a>
     </div>
 
     <div class="isFlex">
       <h4>live deploy...</h4>
-      <span><a href="">claxxicomix.surge.sh</a></span>
+      <span><a href="https://claxxcomixx.surge.sh/">claxxicomix.surge.sh</a></span>
     </div>
 
     <div class="isFlex">
       <h4>original theme...</h4>
-      <span><a href="">maxim</a></span>
+      <span><a href="https://bootstrapmade.com/maxim-free-onepage-bootstrap-theme/">maxim theme</a></span>
     </div>
   </div>
 

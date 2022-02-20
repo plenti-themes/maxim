@@ -5,7 +5,7 @@
 		"pages": ":filename",
 		"index": ":paginate(totalPages)"
 	},
-	"baseurl": "/",
+	"baseurl": "/maxim/",
 	"build": "public",
 	"local": {
 		"port": 3000

@@ -1,0 +1,1 @@
+export let env = { local: false, baseurl: '/', cms: { repo: 'https://gitlab.com/YourGroup/YourRepo', redirectUrl: 'http://localhost:3000/admin/', appId: '' } };

@@ -6,7 +6,6 @@
 
   import Header from './header.svelte';
   import Tallfooter from './tallfooter.svelte';
-  import Issues from '../components/issues.svelte';
 
   export let content, layout, allContent, allLayouts, env, user, login, AdminMenu, title;
 </script>
@@ -27,7 +26,6 @@
   <!-- <Footer {allContent} /> -->
 
   <Tallfooter {...content.fields}/>
-  <Issues />
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/aos/aos.js"></script>

@@ -34,7 +34,6 @@ import { makeTitle } from '../scripts/make_title.js';
 
 import Header from './header.js';
 import Tallfooter from './tallfooter.js';
-import Issues from '../components/issues.js';
 
 function create_if_block(ctx) {
 	let switch_instance;
@@ -120,26 +119,24 @@ function create_fragment(ctx) {
 	let t3;
 	let tallfooter;
 	let t4;
-	let issues;
-	let t5;
 	let script0;
 	let script0_src_value;
-	let t6;
+	let t5;
 	let script1;
 	let script1_src_value;
-	let t7;
+	let t6;
 	let script2;
 	let script2_src_value;
-	let t8;
+	let t7;
 	let script3;
 	let script3_src_value;
-	let t9;
+	let t8;
 	let script4;
 	let script4_src_value;
-	let t10;
+	let t9;
 	let script5;
 	let script5_src_value;
-	let t11;
+	let t10;
 	let script6;
 	let script6_src_value;
 	let current;
@@ -186,7 +183,6 @@ function create_fragment(ctx) {
 	}
 
 	tallfooter = new Tallfooter({ props: tallfooter_props });
-	issues = new Issues({});
 
 	return {
 		c() {
@@ -202,20 +198,18 @@ function create_fragment(ctx) {
 			t3 = space();
 			create_component(tallfooter.$$.fragment);
 			t4 = space();
-			create_component(issues.$$.fragment);
-			t5 = space();
 			script0 = element("script");
-			t6 = space();
+			t5 = space();
 			script1 = element("script");
-			t7 = space();
+			t6 = space();
 			script2 = element("script");
-			t8 = space();
+			t7 = space();
 			script3 = element("script");
-			t9 = space();
+			t8 = space();
 			script4 = element("script");
-			t10 = space();
+			t9 = space();
 			script5 = element("script");
-			t11 = space();
+			t10 = space();
 			script6 = element("script");
 			this.h();
 		},
@@ -234,32 +228,30 @@ function create_fragment(ctx) {
 			t3 = claim_space(body_nodes);
 			claim_component(tallfooter.$$.fragment, body_nodes);
 			t4 = claim_space(body_nodes);
-			claim_component(issues.$$.fragment, body_nodes);
-			t5 = claim_space(body_nodes);
 			script0 = claim_element(body_nodes, "SCRIPT", { src: true });
 			var script0_nodes = children(script0);
 			script0_nodes.forEach(detach);
-			t6 = claim_space(body_nodes);
+			t5 = claim_space(body_nodes);
 			script1 = claim_element(body_nodes, "SCRIPT", { src: true });
 			var script1_nodes = children(script1);
 			script1_nodes.forEach(detach);
-			t7 = claim_space(body_nodes);
+			t6 = claim_space(body_nodes);
 			script2 = claim_element(body_nodes, "SCRIPT", { src: true });
 			var script2_nodes = children(script2);
 			script2_nodes.forEach(detach);
-			t8 = claim_space(body_nodes);
+			t7 = claim_space(body_nodes);
 			script3 = claim_element(body_nodes, "SCRIPT", { src: true });
 			var script3_nodes = children(script3);
 			script3_nodes.forEach(detach);
-			t9 = claim_space(body_nodes);
+			t8 = claim_space(body_nodes);
 			script4 = claim_element(body_nodes, "SCRIPT", { src: true });
 			var script4_nodes = children(script4);
 			script4_nodes.forEach(detach);
-			t10 = claim_space(body_nodes);
+			t9 = claim_space(body_nodes);
 			script5 = claim_element(body_nodes, "SCRIPT", { src: true });
 			var script5_nodes = children(script5);
 			script5_nodes.forEach(detach);
-			t11 = claim_space(body_nodes);
+			t10 = claim_space(body_nodes);
 			script6 = claim_element(body_nodes, "SCRIPT", { src: true });
 			var script6_nodes = children(script6);
 			script6_nodes.forEach(detach);
@@ -294,20 +286,18 @@ function create_fragment(ctx) {
 			append(body, t3);
 			mount_component(tallfooter, body, null);
 			append(body, t4);
-			mount_component(issues, body, null);
-			append(body, t5);
 			append(body, script0);
-			append(body, t6);
+			append(body, t5);
 			append(body, script1);
-			append(body, t7);
+			append(body, t6);
 			append(body, script2);
-			append(body, t8);
+			append(body, t7);
 			append(body, script3);
-			append(body, t9);
+			append(body, t8);
 			append(body, script4);
-			append(body, t10);
+			append(body, t9);
 			append(body, script5);
-			append(body, t11);
+			append(body, t10);
 			append(body, script6);
 			current = true;
 		},
@@ -387,7 +377,6 @@ function create_fragment(ctx) {
 			transition_in(header.$$.fragment, local);
 			if (switch_instance) transition_in(switch_instance.$$.fragment, local);
 			transition_in(tallfooter.$$.fragment, local);
-			transition_in(issues.$$.fragment, local);
 			current = true;
 		},
 		o(local) {
@@ -396,7 +385,6 @@ function create_fragment(ctx) {
 			transition_out(header.$$.fragment, local);
 			if (switch_instance) transition_out(switch_instance.$$.fragment, local);
 			transition_out(tallfooter.$$.fragment, local);
-			transition_out(issues.$$.fragment, local);
 			current = false;
 		},
 		d(detaching) {
@@ -406,7 +394,6 @@ function create_fragment(ctx) {
 			destroy_component(header);
 			if (switch_instance) destroy_component(switch_instance);
 			destroy_component(tallfooter);
-			destroy_component(issues);
 		}
 	};
 }

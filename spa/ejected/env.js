@@ -1,1 +1,1 @@
-export let env = { local: false, baseurl: '/maxim/', cms: { repo: 'https://gitlab.com/YourGroup/YourRepo', redirectUrl: 'http://localhost:3000/admin/', appId: '' } };
+export let env={local:!1,baseurl:"/maxim/",cms:{repo:"https://gitlab.com/YourGroup/YourRepo",redirectUrl:"http://localhost:3000/admin/",appId:"",branch:""}}
